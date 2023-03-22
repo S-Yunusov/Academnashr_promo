@@ -1,22 +1,143 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.site-header{
+  background-color: #ffffff; 
 }
 
-a{
-    text-decoration: none;
+.sitenav-link{
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
 }
 
-header{
-    background-color: #ffffff;
+.sitenav-list{
+  list-style: none;
 }
 
-nav{
-    width: 610px;
-    height: 39px;
+.main-link{
+  font-size: 13px;
+  line-height: 15px;
+  background-color: #FF7500;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
-.registration{
-    background-color: #FF7500;
+.hero{
+  background-color: #252420;
+  color: #ffffff;
+}
+
+.hero-content{
+  width: 390px;
+}
+
+.orange-line{
+  width: 80px;
+  height: 3px;
+  background-color: #FF7500;
+}
+
+.hero-heading{
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.hero-text{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.hero-img{
+  width: 510px;
+  height: 510px;
+}
+
+.features-heading{
+  width: 440px;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.features-item{
+  width: 340px;
+}
+
+.feature-icon-wrapper{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+}
+
+.features-title{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.features-info{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.promo{
+  background-color: #252420;
+  color: #ffffff;
+}
+
+.promo-content{
+  width: 440px;
+}
+
+.promo-heading{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+}
+
+.promo-text{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.promo-highlight{
+  color: #FF7500;
+}
+
+.promo-img{
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+}
+
+.site-footer{
+  background-color: #F8F8F8;
+}
+
+.site-footer ul{
+  list-style: none;
+}
+
+.site-footer-divider{
+  height: 2px;
+  background-color: rgba(37, 36, 32, 0.5);
+}
+
+.site-footer-links{
+  width: 224px;
+}
+
+.site-footer-links a{
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #252420;
 }
