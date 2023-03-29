@@ -11,15 +11,16 @@ body{
   outline-offset: 3px;
 }
 
-ul{
-  list-style: none;
-}
+
 
 /* SITE HEADER */
 .site-header{
   display: flex;
   align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
   justify-content: space-between;
+  border-top: 5px solid #FF7500;
   background-color: #ffffff; 
 }
 
@@ -45,6 +46,7 @@ ul{
 .sitenav-list{
   list-style: none;
   display: flex;
+  padding: 0;
 }
 
 .sitenav-link{
@@ -70,8 +72,11 @@ ul{
 
 /* MAIN LINK */
 .main-link{
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 15px;
   background-color: #FF7500;
   color: #FFFFFF;
@@ -92,6 +97,8 @@ ul{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 80px; 
+  padding-bottom: 80px;
   background-color: #252420;
   color: #ffffff;
 }
@@ -104,6 +111,7 @@ ul{
   width: 80px;
   height: 3px;
   background-color: #FF7500;
+  border: none;
 }
 
 .hero-heading{
@@ -116,9 +124,16 @@ ul{
 .hero-img{
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
 /* FEATURES */
+
+.features{
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
+
 .features-heading{
   font-family: "Roboto Condensed","Roboto", "Arial", sans-serif;
   width: 440px;
@@ -131,6 +146,7 @@ ul{
   display: flex;
   justify-content: space-between;
   list-style: none;
+  padding: 0;
 }
 
 /* FEATURE */
@@ -139,8 +155,12 @@ ul{
 }
 
 .feature-icon-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
 }
 
@@ -156,6 +176,7 @@ ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 12px;
   background-color: #252420;
   color: #ffffff;
 }
@@ -179,11 +200,14 @@ ul{
 .promo-img{
   width: 440px;
   height: 440px;
+  border-radius: 12px;
   object-fit: cover;
 }
 
 /* FOOTER */
 .site-footer{
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #F8F8F8;
 }
 
@@ -191,12 +215,17 @@ ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.site-footer ul{
+  padding: 0;
   list-style: none;
 }
 
 .site-footer-socials{
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .site-footer-socials a{
@@ -213,6 +242,7 @@ ul{
  
 .site-footer-divider{
   height: 2px;
+  border: 0;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
